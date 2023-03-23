@@ -48,7 +48,7 @@ export const navLinks = [
 		title: 'Contact',
 	},
 	{
-		id: 'https://drive.google.com/file/d/1u67wRtepWOjjvKv_7CvxV5f8hztTueiS/view?usp=share_link',
+		id: 'https://drive.google.com/file/d/1WNstKJ9nLR0lF-4DEzsLQYopMUVYkJPo/view?usp=share_link',
 		title: 'Download CV',
 	},
 ]
