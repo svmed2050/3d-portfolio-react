@@ -28,6 +28,7 @@ import {
 	devspace,
 	crown,
 	next,
+	messenger,
 } from '../assets'
 
 export const navLinks = [
@@ -316,6 +317,31 @@ const projects = [
 		image: crown,
 		source_code_link: 'https://github.com/svmed2050/react-crown-clothing',
 		demo_code_link: 'https://regal-stardust-005081.netlify.app',
+	},
+	{
+		name: 'Unichat Messenger (React)',
+		description: `Full-fledged firebase chat application with social authentication (including google and facebook), online-statuses, great design and functionality. It also includes image support, sound notifications, the ability to create multiple rooms and much more.`,
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'firebase',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'chat-engine',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'social-auth',
+				color: 'text-amber-500',
+			},
+		],
+		image: messenger,
+		source_code_link: 'https://github.com/svmed2050/react-messenger-chat',
+		demo_code_link: 'https://react-messenger-chat.vercel.app',
 	},
 ]
 
