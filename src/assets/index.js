@@ -38,8 +38,10 @@ import crown from './projects/crown-clothing.png'
 import devspace from './projects/devspace.png'
 import proshop from './projects/proshop.png'
 import messenger from './projects/messenger.png'
+import openai from './projects/openai.png'
 
 export {
+	openai,
 	messenger,
 	next,
 	realtor,

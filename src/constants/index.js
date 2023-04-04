@@ -29,6 +29,7 @@ import {
 	crown,
 	next,
 	messenger,
+	openai,
 } from '../assets'
 
 export const navLinks = [
@@ -342,6 +343,32 @@ const projects = [
 		image: messenger,
 		source_code_link: 'https://github.com/svmed2050/react-messenger-chat',
 		demo_code_link: 'https://react-messenger-chat.vercel.app',
+	},
+	{
+		name: 'OpenAI Image Generation (MERN)',
+		description: `Dynamic image layout and hover effect that showcases a user's prompt to generate AI image, their name and the download button. Includes ability to create new AI generated images by clicking the "surprise me button" or entering absolutely any text you can think off
+		to share your post with the community`,
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'nodejs',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'mongodb',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'open-ai',
+				color: 'text-amber-500',
+			},
+		],
+		image: openai,
+		source_code_link: 'https://github.com/svmed2050/dalle-client-react',
+		demo_code_link: 'https://dalle-client-react.vercel.app',
 	},
 ]
 
