@@ -50,7 +50,7 @@ export const navLinks = [
 		title: 'Contact',
 	},
 	{
-		id: 'https://drive.google.com/file/d/1WNstKJ9nLR0lF-4DEzsLQYopMUVYkJPo/view?usp=share_link',
+		id: 'https://drive.google.com/file/d/1q9E_XCIzfnxEgQYMqzKroVscaTN9tm1D/view?usp=sharing',
 		title: 'Download CV',
 	},
 ]
@@ -319,31 +319,31 @@ const projects = [
 		source_code_link: 'https://github.com/svmed2050/react-crown-clothing',
 		demo_code_link: 'https://regal-stardust-005081.netlify.app',
 	},
-	{
-		name: 'Unichat Messenger (React)',
-		description: `Full-fledged firebase chat application with social authentication (including google and facebook), online-statuses, great design and functionality. It also includes image support, sound notifications, the ability to create multiple rooms and much more.`,
-		tags: [
-			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'firebase',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'chat-engine',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'social-auth',
-				color: 'text-amber-500',
-			},
-		],
-		image: messenger,
-		source_code_link: 'https://github.com/svmed2050/react-messenger-chat',
-		demo_code_link: 'https://react-messenger-chat.vercel.app',
-	},
+	// {
+	// 	name: 'Unichat Messenger (React)',
+	// 	description: `Full-fledged firebase chat application with social authentication (including google and facebook), online-statuses, great design and functionality. It also includes image support, sound notifications, the ability to create multiple rooms and much more.`,
+	// 	tags: [
+	// 		{
+	// 			name: 'react',
+	// 			color: 'blue-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'firebase',
+	// 			color: 'green-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'chat-engine',
+	// 			color: 'pink-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'social-auth',
+	// 			color: 'text-amber-500',
+	// 		},
+	// 	],
+	// 	image: messenger,
+	// 	source_code_link: 'https://github.com/svmed2050/react-messenger-chat',
+	// 	demo_code_link: 'https://react-messenger-chat.vercel.app',
+	// },
 	{
 		name: 'OpenAI Image Generation (MERN)',
 		description: `Dynamic image layout and hover effect that showcases a user's prompt to generate AI image, their name and the download button. Includes ability to create new AI generated images by clicking the "surprise me button" or entering absolutely any text you can think off
