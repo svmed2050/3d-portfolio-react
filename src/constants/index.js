@@ -30,6 +30,7 @@ import {
 	next,
 	messenger,
 	openai,
+	millionquiz,
 } from '../assets'
 
 export const navLinks = [
@@ -369,6 +370,27 @@ const projects = [
 		image: openai,
 		source_code_link: 'https://github.com/svmed2050/dalle-client-react',
 		demo_code_link: 'https://dalle-client-react.vercel.app',
+	},
+	{
+		name: 'Millionaire Quiz Game (React)',
+		description: `Popular quiz game with ability to choose answer. Includes react hooks, shuffle function to randomize questions. The cherry on top is a use-sound npm package to get more pleasure from the game`,
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'use-sound',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: millionquiz,
+		source_code_link: 'https://github.com/svmed2050/React-millionaire-quiz',
+		demo_code_link: 'https://react-millionaire-quiz.vercel.app',
 	},
 ]
 
