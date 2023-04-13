@@ -39,8 +39,10 @@ import devspace from './projects/devspace.png'
 import proshop from './projects/proshop.png'
 import messenger from './projects/messenger.png'
 import openai from './projects/openai.png'
+import millionquiz from './projects/millionquiz.png'
 
 export {
+	millionquiz,
 	openai,
 	messenger,
 	next,
